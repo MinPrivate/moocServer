@@ -1,0 +1,18 @@
+﻿@charset "utf-8";
+.s_form {
+zoom: 1;
+height: 55px;
+padding: 0 0 0 10px;
+}
+.s_form:after, .s_tab:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+img {
+width: 270px;
+height: 129px;
+}

@@ -1,0 +1,65 @@
+
+
+.halfmoon{
+margin-bottom: 1em;
+}
+
+.halfmoon ul{
+padding: 3px 9px 2px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+/*border-bottom: 1px solid #929492;*/
+}
+
+.halfmoon li{
+display: inline;
+margin: 0;
+}
+
+ 
+
+
+
+.halfmoon li a:hover{
+background-color: #c8e181;
+}
+.halfmoon li a:visited{
+ text-decoration:none;
+}
+.nom{
+text-decoration: none;
+padding: 3px 9px 2px 5px;
+margin-right: 1px; /*distance between each tab*/
+border-left: 1px solid gray;
+color: black;
+font-size: 13px;
+background: White url('http://www.cnpm25.cn/images/halfmoontab.gif') no-repeat right top;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight:normal;
+}
+.currtitle 
+{
+	text-decoration: none;
+padding: 3px 9px 2px 5px;
+margin-right: 1px; /*distance between each tab*/
+border-left: 1px solid gray;
+color: black;
+font-size: 13px;
+background: White url('http://www.cnpm25.cn/images/halfmoontab.gif') no-repeat right top;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color:#EBEFF7;
+	font-weight:bold;
+}
+
+.selectedno
+{
+	background-color:White;
+}

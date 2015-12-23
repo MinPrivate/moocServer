@@ -1,0 +1,8 @@
+<chart caption="公开课分布" showPercentageInLabel="1" showValues="1" showLabels="0" showLegend="1" showPercentValues="1">
+        <set value="14.94" label="经济管理" color="429EAD"/> 
+        <set value="19.17" label="医药与健康" color="4249AD"/> 
+        <set value="7.14" label="人文" color="AD42A2"/> 
+        <set value="7.75" label="社会科学" color="D4AC31"/>
+        <set value="7.75" label="计算机"  color="D4AC31"/>
+        <set value="7.75" label="其他" color="D4AC31"/>
+</chart>

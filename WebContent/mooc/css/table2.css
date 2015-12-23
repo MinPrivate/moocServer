@@ -1,0 +1,190 @@
+<style type="text/css">
+
+/**------------form-------------- */
+#formDiv{
+	margin-left: 10px;
+}
+#userBankForm fieldset{
+	border-style:solid none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #DDDDDD ;
+    border-right: 0 none;
+    border-width: 1px 0;
+    margin: 10px 0;
+    padding: 10px 0;
+    position: relative;
+}
+#userBankForm legend{
+	background: none repeat scroll 0 0 #FFFFFF;
+	color: #93BB3A;
+    font-weight: bold;
+    padding: 0 1px 0 0;
+}
+/**-------------工具条--------------- */
+#toolBar{
+	background: url("${pageContext.request.contextPath}/img/bg.gif") repeat-x scroll center top #FAFAFA;
+    border-bottom: 1px solid #B8E2FB;
+/*     border-top: 1px solid #B8E2FB; */
+    padding: 2px;
+    height: 32px;
+    font-size: 12px;
+}
+.xg_operator{
+	display: block;
+	float: left;
+	border: 1px solid #ededed;
+}
+.xg_span{
+	line-height: 29px;
+	padding-left: 18px;
+	padding-right: 5px;
+}
+.add_span{
+	background: url("${pageContext.request.contextPath}/img/add.png") no-repeat scroll left center transparent;
+}
+.edit_span{
+	background: url("${pageContext.request.contextPath}/img/edit.png") no-repeat scroll left center transparent;
+}
+.delete_span{
+	background: url("${pageContext.request.contextPath}/img/close.png") no-repeat scroll left center transparent;
+}
+.xg_separator{
+	border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #FFFFFF;
+    float: left;
+    height: 90%;
+    margin: 1px;
+}
+/**--------------提示---------------- */
+#tip-result{
+	display: block;
+	float: left;
+	padding-left: 10px;
+}
+.success-tip-result{
+	line-height: 29px;
+	padding-left: 18px;
+	color: blue;
+	text-align: middle;
+}
+.error-tip-result{
+	background: url("${pageContext.request.contextPath}/img/error.png") no-repeat scroll left center transparent;;
+	line-height: 29px;
+	padding-left: 18px;
+	color: red;
+	text-align: middle;
+}
+.xg_mouseondiv{
+	cursor: pointer;
+	color: red;
+	border: 1px solid #add6ad;
+}
+/** ------- table容器 ---------*/
+#tableDiv{
+	padding:0;
+	border:1px solid #4d9ab0;
+	margin-left: 10px;
+	margin-top: 5px;
+	/**width: 700px;*/
+}
+
+/** ------- table ---------*/
+#dataDiv{
+	/* height: 200px; */
+	min-height: 190px;
+	/**background-color: #b8e2fb;*/
+}
+#dataTable{
+	border-spacing:0px;
+	border-collapse: collapse;
+	width: 100%;
+}
+#dataTable thead tr{
+	height: 20px;
+	font-size: 12px;
+	background-color: rgb(173,214,173);/**#53B131; */
+	opacity: 1;
+}
+#dataTable thead tr th{
+	border: 1px solid #EEEEEE;
+   	padding: 5px;
+}
+#dataTable td{
+	text-align: center;
+	padding: 5px;
+   	height: 20px;
+   	border: 1px solid #EEEEEE;
+   	border-bottom: 1px solid #CCCCCC;
+}
+
+/** ------------分页工具条pageToolBarDiv----------------*/
+#pageToolBarDiv{
+	background: url("${pageContext.request.contextPath}/img/bg.gif") repeat-x scroll center top #FAFAFA;
+	background-color: rgb(239,246,255);
+	margin: 0px auto; 
+    padding: 0;
+    width: 100%;
+    height: 30px;
+	text-align: right;
+	font-size: 12px;
+	line-height: 28px;
+}
+.hidBtn{
+	background-color: #ffffff;
+	border: 1px solid #B7D8EE;
+}
+#pageToolBarDiv .inputText[type="text"]{
+	text-align: center;
+	width: 30px;
+	height: 15px;
+	margin: 0 0px 0px 0;
+	padding: 0px;
+}
+
+#pageToolBarDiv a{
+	text-decoration: none;
+ 	border: 1px solid #B7D8EE; 
+	color: #0030CE;
+	font-weight: bold;
+	padding: 0px;
+}  
+#pageToolBarDiv img{
+	border: 1px;
+}
+#pageToolBarDiv a:hover{
+	background-color: #D2EAF6;
+	boder: 1px solid #B7D8EE; 
+	color: #0066A7;
+}
+#pageToolBarDiv a:visited{
+	boder: 1px solid #B7D8EE; 
+	color: #0066A7;
+}
+#pageToolBarDiv a:link{
+	border: 1px solid #B7D8EE; 
+	color: #0030CE;
+}
+.pre-img{
+	vertical-align: middle;
+}
+
+input {
+	border-color: #C4C4C4 #C4C4C4 #C4C4C4 #C4C4C4;
+    border-style: solid;
+    border-width: 1px;
+   /*  color: #777777; */
+    padding: 2px;
+    vertical-align: middle;
+}
+input:focus,textarea:focus{
+	background-color: #FFFFF0;
+	border-color: #C4C4C4;
+	box-shadow: 0 1px 1px rgba(196,196,196,0.5);
+}
+
+p.queryBox{
+	margin: 5px;
+}
+</style>

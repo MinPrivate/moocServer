@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	font-weight:normal;
+}
+
+#aboutZS {
+	/*width:650px;*/
+	width:100%;
+	overflow:hidden;
+	margin-top:-10px;
+	margin-bottom:0px;
+	font: 14px/1.6 "Microsoft Yahei", "Tahoma", "SimSun";
+	/*color:#3f3f3f;*/
+	float:left;
+	height:auto;
+	background-color:#f5f7fb;
+	border:0px solid #99b0da;
+	/*height:670px;*/
+}
+.zs {
+	width:100%;
+	overflow:hidden;
+	margin-top:0px;
+}
+.zs ul {
+	/*width:675px;*/
+	width:100%;
+}
+.zs ul li {
+	width:210px;
+	height:160px;
+	overflow:hidden;
+	margin:0px 10px 10px 15px;
+	float:left;
+	background-color:#82aad2;
+	color:#000;
+	position:relative;
+	border-radius: 10px;
+}
+
+.zs ul li .mask {
+	width:210px;
+	height:160px;
+	overflow:hidden;
+	position:relative;
+}
+.zs ul li .area {
+	width:210px;
+	height:160px;
+	overflow:hidden;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.zs ul li .imgArea {
+	width:180px;
+	height:150px;
+	overflow:hidden;
+}
+.zs ul li .imgArea img {
+	width:180px;
+	height:80px;
+	overflow:hidden;
+	border:0;
+}
+.zs ul li .detail {
+	padding:0px 0px 0px 0px;
+	width:210px;
+	height:160px;
+}
+.zs ul li .detail .applogo {
+	float: left;
+	margin-top: 55px;
+	margin-left: 10px;
+}
+
+.applogo a img {
+	border: none;
+}
+
+.zs ul li .detail .aside {
+	width:120px;
+	height:130px;
+	padding-right:10px;
+	float:right;
+	margin-top: 25px;
+	line-height:18px;
+	font-size:12px;
+	font:12px/1.6 "Microsoft Yahei", "Tahoma", "SimSun";
+}
+.zs ul li .detail .aside img{
+	width: 70px;
+	height: 50px;
+}
+.zs ul li .detail .aside b {
+	font-size:18px;
+	color:#000;
+	display:block;
+	line-height:40px;
+	font-weight:;
+}
+.zs ul li .detail a img {
+	border: none;
+}
+.zs ul li h3 {
+	margin-top:-80px;
+	border-top:0px;
+	height:auto;
+	line-height:16px;
+	font-size:14px;
+	font-weight:normal;
+	padding-left:0px;
+	position:absolute;
+	left:0px;
+	top:100px;
+	text-align:center;
+	width:70px;
+}
+.zs ul li h3 a {
+	color:#000;
+}
+.zs ul li h3 a b {
+	font-weight:bold;
+}
+
+.zs .detail a {
+	display:block;
+	width:54px;
+	height:63px;
+	overflow:hidden;
+	background:url(/m2/i/zs/icons.jpg) no-repeat;
+}
+
+
+
